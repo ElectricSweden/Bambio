@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
-    width: 50vw;
-    height: 50vw;
-    background-color: green;
-    color: red;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
 }
