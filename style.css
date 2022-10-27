@@ -10,3 +10,10 @@
     color: white;
     font-weight: bold;
 }
+
+.welcome {
+    color: green;
+    width: 50vw;
+    height: 20vh;
+    background-color: white;
+}
