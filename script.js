@@ -6,6 +6,3 @@ document.querySelectorAll('a[href^="."]').forEach(anchor => {
         });
     })
 })
-
-
-//phones: 450x 950x
