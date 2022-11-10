@@ -54,6 +54,11 @@
         font-size: 48px;
         border: transparent;
     }
+
+    .shop-link:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
     
     a {
         text-decoration: none;
@@ -264,6 +269,11 @@
         color: white;
         font-size: 24px;
         border: transparent;
+    }
+
+    .shop-link:hover {
+        cursor: pointer;
+        opacity: 0.7;
     }
     
     a {
