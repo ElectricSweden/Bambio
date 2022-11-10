@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
-@media only screen and (min-width: 450px) and (min-height: 950px)
+@media only screen and (min-width: 450px) and (min-height: 200px)
 {
     * {
         padding: 0;
