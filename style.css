@@ -41,8 +41,7 @@
         display: flex;
         justify-content: center;
         gap: 3vw;
-    }
-    
+    }    
     
     .shop-link {
         display: flex;
@@ -58,6 +57,7 @@
     .shop-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     a {
@@ -78,6 +78,7 @@
     .about-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     .contact-link {
@@ -94,6 +95,7 @@
     .contact-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     .title {
@@ -274,6 +276,7 @@
     .shop-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     a {
@@ -294,6 +297,7 @@
     .about-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     .contact-link {
@@ -310,6 +314,7 @@
     .contact-link:hover {
         cursor: pointer;
         opacity: 0.7;
+        text-decoration: underline;
     }
     
     .title {
