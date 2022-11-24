@@ -10,7 +10,8 @@
     }
     
     .intro {
-        background-color: #17330A;
+        background-image: url("vec1.svg");
+        background-color: #ffffff;
         width: 100vw;
         height: 100vh;
     }
@@ -25,11 +26,14 @@
     }
     
     .logo {
-        background-image: url(icons8-bamboo-96.png);
-        width: 96px;
-        height: 96px;
+        background-image: url(logo.svg);
+        width: 180px;
+        height: 180px;
         position: absolute;
-        left: 2vw;
+        left: 1vw;
+        top: 1vw;
+        filter: invert(53%) sepia(86%) saturate(370%) hue-rotate(8deg) brightness(89%) contrast(89%);
+
     }
     
     .links {
@@ -49,7 +53,7 @@
         width: fit-content;
         height: 80px;
         background-color: transparent;
-        color: white;
+        color: #3D2902;
         font-size: 48px;
         border: transparent;
     }
@@ -70,7 +74,7 @@
         width: fit-content;
         height: 80px;
         background-color: transparent;
-        color: white;
+        color: #3D2902;
         font-size: 48px;
         border: transparent;
     }
@@ -87,7 +91,7 @@
         width: fit-content;
         height: 80px;
         background-color: transparent;
-        color: white;
+        color: #3D2902;
         font-size: 48px;
         border: transparent;
     }
@@ -109,12 +113,18 @@
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
+        background: linear-gradient(90.45deg, #ECBB29 0.39%, #3D2902 99.65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     }
     
     .scroll-icon {
         width: 2em;
         height: 4em;
-        border: 0.3em solid white;
+        border: 0.3em solid #3D2902;
         border-radius: 2em;
         position: absolute;
         left: 50%;
@@ -128,7 +138,7 @@
         top: 15%;
         width: 0.6em;
         height: 0.6em;
-        background-color: white;
+        background-color: #3D2902;
         transform: translate(-50%);
         border-radius: 0.6em;
         animation: wheel 1.5s ease-in-out infinite;
@@ -153,60 +163,51 @@
     */
     
     .about {
+        background-image: url("vec3.svg");
         width: 100vw;
         height: 100vh;
-        background-color: #467441;
+        background-color: #ffffff;
     }
-    
-    .container-1 {
+
+    .about-container {
         display: flex;
         flex-direction: row;
+        gap: 4vw;
+        justify-content: center;
+        align-items: center;
+        position: absolute; right: 5vw; top: 60vw;
     }
-    
-    .container-2 {
+
+    .about-img {
+        width: 300px;
+        height: 395px;
+        background-color: #3D2902;
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .about-big-1 {
-        width: 60vw;
-        height: 40vh;
-        background-color: white;
-        margin-block: 4vh;
-        margin-inline: 4vw;
-        border-radius: 1vh;
+
+    .about-text {
+        width: 20vw;
+        height: 20vw;
+        position: absolute; left: 1vw; top: 60vw;
+        color: #3D2902;
+        font-size: 24px;
     }
-    
-    .about-big-2 {
-        width: 60vw;
-        height: 40vh;
-        background-color: white;
-        margin-block: 4vh;
-        margin-inline: 4vw;
-        margin-top: 8vh;
-        border-radius: 1vh;
+
+    .about-text1 {
+        width: 20vw;
+        height: 20vw;
+        position: absolute; left: 25vw; top: 60vw;
+        color: #3D2902;
+        font-size: 24px;
     }
-    
-    .about-small-1 {
-        width: 30vw;
-        height: 40vh;
-        background-color: white;
-        margin-block: 4vh;
-        margin-inline: 4vw;
-        border-radius: 1vh;
+
+    .about-title {
+        font-size: 48px;
+        color: #3D2902;
+        position: absolute; left: 1vw; top: 55vw;
     }
-    
-    .about-small-2 {
-        width: 30vw;
-        height: 40vh;
-        background-color: white;
-        margin-block: 4vh;
-        margin-inline: 4vw;
-        margin-top: 8vh;
-        border-radius: 1vh;
-    }
-    
-    
     /*
     Next block (3)
     */
@@ -214,9 +215,96 @@
     .contact {
         width: 100vw;
         height: 100vh;
-        background-color: #44AE4A;
+        background-image: url("vec2.svg");
+        background-color: #ffffff;
+        }
+
+    main {
+        height: 100vh;
+        background: linear-gradient(to right top, #cca543,#cca543);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
+
+    .glass {
+        background-color: white;
+        min-height: 30vw;
+        width: 20vw;
+        border-radius: 2rem;
+        background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .glass-img {
+        width: 15vw;
+        height: 20vw;
+        background-color: #3D2902;
+        border-radius: 2rem;
+        overflow-y: hidden;
+    }
+
+    img {
+        width: 15vw;
+        height: 20vw;
+    }
+
+    .glass-name {
+        color: #3D2902;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*
+    Extras (4)
+    */
+
+    .stacked-blob1 {
+        background-image: url("stacked_blob.svg");
+        background-color: transparent;
+        width: 260px;
+        height: 260px;
+        position: absolute;
+        left: 900px;
+        top: 770px;
+    }
+
+    .stacked-blob2 {
+        background-image: url("stacked_blob.svg");
+        background-color: transparent;
+        width: 260px;
+        height: 260px;
+        position: absolute;
+        left: 1500px;
+        top: 1800px;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 450px) and (max-height: 950px)
 {
