@@ -54,7 +54,7 @@
         height: 80px;
         background-color: transparent;
         color: #3D2902;
-        font-size: 48px;
+        font-size: 32px;
         border: transparent;
     }
 
@@ -75,7 +75,7 @@
         height: 80px;
         background-color: transparent;
         color: #3D2902;
-        font-size: 48px;
+        font-size: 32px;
         border: transparent;
     }
     
@@ -92,7 +92,7 @@
         height: 80px;
         background-color: transparent;
         color: #3D2902;
-        font-size: 48px;
+        font-size: 32px;
         border: transparent;
     }
     
@@ -179,18 +179,19 @@
     }
 
     .about-img {
-        width: 300px;
-        height: 395px;
+        width: 280px;
+        height: 340px;
         background-color: #3D2902;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 20px;
     }
 
     .about-text {
         width: 20vw;
         height: 20vw;
-        position: absolute; left: 1vw; top: 60vw;
+        position: absolute; left: 5vw; top: 64vw;
         color: #3D2902;
         font-size: 24px;
     }
@@ -198,7 +199,7 @@
     .about-text1 {
         width: 20vw;
         height: 20vw;
-        position: absolute; left: 25vw; top: 60vw;
+        position: absolute; left: 25vw; top: 64vw;
         color: #3D2902;
         font-size: 24px;
     }
@@ -206,7 +207,7 @@
     .about-title {
         font-size: 48px;
         color: #3D2902;
-        position: absolute; left: 1vw; top: 55vw;
+        position: absolute; left: 5vw; top: 59vw;
     }
     /*
     Next block (3)
@@ -273,8 +274,8 @@
         width: 260px;
         height: 260px;
         position: absolute;
-        left: 900px;
-        top: 770px;
+        left: 75vw;
+        top: 175vh;
     }
 
     .stacked-blob2 {
@@ -283,8 +284,8 @@
         width: 260px;
         height: 260px;
         position: absolute;
-        left: 1500px;
-        top: 1800px;
+        left: 45vw;
+        top: 80vh;
     }
     
 }
